@@ -30,7 +30,7 @@ function PriceWrapper({ children }: { children: ReactNode }) {
 
 export default function Pricing() {
   return (
-    <Box py={12}>
+    <Box mt={8} py={15}>
       <VStack spacing={2} textAlign="center">
         <Heading as="h1" fontSize="4xl">
           Plans that fit your need
@@ -44,10 +44,10 @@ export default function Pricing() {
         direction={{ base: 'column', md: 'row' }}
         textAlign="center"
         justify="center"
-        spacing={{ base: 4, lg: 10 }}
+        spacing={{ base: 4, lg: 80 }}
         py={10}>
         <PriceWrapper>
-          <Box py={4} px={12}>
+          <Box py={9} px={12}>
             <Text fontWeight="500" fontSize="2xl">
               Hobby
             </Text>

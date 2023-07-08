@@ -11,7 +11,7 @@ const App: React.FC = () => {
     <Box>
     <Navbar/>
     <Hero/>
-
+   
     <Features/>
     <Pricing/>
     <Footer/>

@@ -23,14 +23,14 @@ const Feature = ({ heading, text }: FeatureProps) => {
 export default function Features() {
   return (
     <Box bg={useColorModeValue('gray.100', 'gray.700')}>
-      <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
+      <Container maxW={'7xl'} py={16} as={Stack} spacing={5}>
         <Stack spacing={0} align={'center'}>
           <Heading>Our Clients Speak</Heading>
           <Text>We have been working with clients around the world</Text>
-          {/*<Icon as={FiCheckCircle} mt={20} boxSize={30}  /> {/* Ícone */}
+       
         </Stack>
    
-        <Divider mt={2} mb={12} />
+        <Divider mt={2} mb={30} />
         <Grid
           templateColumns={{
             base: 'repeat(1, 1fr)',
@@ -39,6 +39,22 @@ export default function Features() {
           }}
           gap={{ base: '8', sm: '12', md: '16' }}>
           <Feature
+            heading={'First Feature'}
+            text={'Short text describing one of your features/services'}
+          />
+          <Feature
+            heading={'Second Feature'}
+            text={'Short text describing one of your features/services'}
+          />
+          <Feature
+            heading={'Third Feature'}
+            text={'Short text describing one of your features/services'}
+          />
+          <Feature
+            heading={'Fourth Feature'}
+            text={'Short text describing one of your features/services'}
+          />
+           <Feature
             heading={'First Feature'}
             text={'Short text describing one of your features/services'}
           />
