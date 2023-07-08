@@ -34,34 +34,35 @@ export default function Hero(){
           </Icon>
           <Box
             mx="auto"
-            maxW={{ base: "7xl" }}
+            maxW={{ base: "9xl" }}
             px={{ base: 4, sm: 6, lg: 8 }}
-            mt={{ base: 10, sm: 12, md: 16, lg: 20, xl: 28 }}
+            mt={{ base: 10, sm: 12, md: 16, lg: 20, xl: 38 }}
           >
             <Box
-              w="full"
+              w="100%"
               textAlign={{ sm: "center", lg: "left" }}
          
               justifyContent="center"
               alignItems="center"
             >
               <chakra.h1
-                fontSize={{ base: "4xl", sm: "5xl", md: "6xl" }}
+                fontSize={{ base: "2xl", sm: "3xl", md: "5xl" }}
+                w="100%"
                 letterSpacing="tight"
-                lineHeight="short"
+                //lineHeight="short"
                 fontWeight="extrabold"
                 color="gray.900"
                 _dark={{ color: "white" }}
               >
-                <chakra.span display={{ base: "block", xl: "inline" }}>
-                  Data to enrich your{" "}
+                <chakra.span       display={{ base: "block", xl: "inline" }}>
+                Solucão completa para o{" "}
                 </chakra.span>
                 <chakra.span
                   display={{ base: "block", xl: "inline" }}
-                  color="brand.600"
+                  color="teal.300"
                   _dark={{ color: "brand.400" }}
                 >
-                  online business
+                   controle de médicos, clínicas e consultórios
                 </chakra.span>
               </chakra.h1>
               <chakra.p
@@ -82,7 +83,7 @@ export default function Hero(){
               fontWeight={'normal'}
               px={6}
               colorScheme={'red'}
-              bg={'teal.500'}
+              bg={"teal.300"}
               _hover={{ bg: 'blackAlpha.500' }}>
               Get started
             </Button>
@@ -104,15 +105,15 @@ export default function Hero(){
         position={{ lg: "absolute" }}
         top={{ lg: 0 }}
         bottom={{ lg: 0 }}
-        right={{ lg: 0 }}
-        w={{ lg: "50%" }}
+        right={{ lg: 100 }}
+        w={{ lg: "40%" }}
         border="solid 1px transparent"
       >
         <Image
-          h={[56, 72, 96, "full"]}
-          w="full"
-          fit="cover"
-          src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+         // h={[56, 72, 96, "full"]}
+  
+          //fit="fill"
+          src="https://www.appermed.com.br/images/banner.png"
           alt=""
           loading="lazy"
         />
